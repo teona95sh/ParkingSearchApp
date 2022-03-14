@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e4a751"
+    tools:context=".ParkingReport">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginEnd="20dp"
+        app:cardCornerRadius="20dp">
+
+        <TextView
+            android:id="@+id/textNumFree"
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="רשום את מספר החניות הפנויות:"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextFree"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="60dp"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="number" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        app:cardCornerRadius="20dp">
+
+        <TextView
+            android:id="@+id/TitleSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="105dp"
+            android:layout_marginTop="10dp"
+            android:text="דווח על חניה ב:"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/PlaceSearch"
+            android:layout_width="330dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="45dp"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="24sp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="290dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="20dp"
+        app:cardCornerRadius="20dp">
+
+        <TextView
+            android:id="@+id/textIsCost"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="145dp"
+            android:layout_marginTop="22dp"
+            android:gravity="center|right"
+            android:text="האם החניה בתשלום?"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spinnerIsCost"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:drawable/btn_dropdown"
+            android:backgroundTintMode="add"
+            android:dropDownSelector="@color/white"
+            android:gravity="center"
+            android:spinnerMode="dropdown"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textIsIndoor"
+            android:layout_width="195dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="92dp"
+            android:gravity="center|right"
+            android:text="האם החניה מקורה?"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spinnerIsIndoor"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="90dp"
+            android:background="@android:drawable/btn_dropdown"
+            android:backgroundTintMode="add"
+            android:dropDownWidth="match_parent"
+            android:dropDownSelector="#5192ac"
+            android:gravity="center"
+            android:spinnerMode="dropdown"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/TextIsDisabled"
+            android:layout_width="215dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="162dp"
+            android:gravity="center|right"
+            android:text="האם קיימות חניות נכה?"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spinnerIsDisabled"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="158dp"
+            android:background="@android:drawable/btn_dropdown"
+            android:backgroundTintMode="add"
+            android:gravity="center"
+            android:spinnerMode="dropdown"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textAmountDis"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="266dp"
+            android:layout_marginTop="232dp"
+            android:gravity="center|right"
+            android:text="כמה?"
+            android:textSize="20sp"
+            android:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/editTextAmount"
+            android:layout_width="69dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="210dp"
+            android:layout_marginTop="230dp"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="number"
+            android:visibility="invisible" />
+    </androidx.cardview.widget.CardView>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonReport"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="120dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="670dp"
+        android:backgroundTint="#5192ac"
+        android:gravity="center"
+        android:text="דווח"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:cornerRadius="25dp"
+        app:spinning_bar_color="#468da7" />
+
+
+</RelativeLayout>

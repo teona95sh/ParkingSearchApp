@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="378dp"
+
+    tools:context=".AllReports">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:backgroundTint="#5192ac"
+        app:cardCornerRadius="25dp">
+
+        <TextView
+            android:id="@+id/titleLikes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="55dp"
+            android:text="0 Likes"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ReportUserName"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="138dp"
+            android:layout_marginTop="20dp"
+            android:gravity="right"
+            android:text="username"
+            android:textColor="#ffff"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageProfile"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="315dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/icon_profile" />
+
+        <TextView
+            android:id="@+id/ReportTime"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="205dp"
+            android:layout_marginTop="72dp"
+            android:gravity="right"
+            android:text="שעה"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imageClock"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="335dp"
+            android:layout_marginTop="70dp"
+            android:src="@drawable/icon_clock" />
+
+        <TextView
+            android:id="@+id/TextAddress"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="115dp"
+            android:gravity="right"
+            android:text="כתובת"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imageLocation"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="335dp"
+            android:layout_marginTop="110dp"
+            android:src="@drawable/location_icon" />
+
+        <TextView
+            android:id="@+id/titleFreeParkingAmnt"
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="170dp"
+            android:layout_marginEnd="10dp"
+            android:text="מספר החניות הפנויות:"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/TextFreeParkingAmnt"
+            android:layout_width="140dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="167dp"
+            android:gravity="right"
+            android:text="מספר החניות"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/titleIsCost"
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="210dp"
+            android:layout_marginEnd="10dp"
+            android:text="האם החניה בתשלום?"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/TextIsCost"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="207dp"
+            android:gravity="right"
+            android:text="כן או לא"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/titleIsIndoor"
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginEnd="10dp"
+            android:text="האם החניה מקורה?"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/TextIsIndoor"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="247dp"
+            android:gravity="right"
+            android:text="כן או לא"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/titleIsDisabled"
+            android:layout_width="185dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="176dp"
+            android:layout_marginTop="290dp"
+            android:text="האם קיימות חניות נכה?"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/TextIsDisabled"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="287dp"
+            android:gravity="right"
+            android:text="כן או לא"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/titleDisableAmnt"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="240dp"
+            android:layout_marginTop="330dp"
+            android:text="אם כן, כמה?"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/TextIsDisabledAmnt"
+            android:layout_width="140dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="115dp"
+            android:layout_marginTop="327dp"
+            android:gravity="right"
+            android:text="מספר החניות"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/imageLike"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="17dp"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/dislike" />
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

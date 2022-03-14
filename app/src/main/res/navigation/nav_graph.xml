@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/signInScreen">
+
+    <fragment
+        android:id="@+id/signInScreen"
+        android:name="com.example.parkingsearchapp.SignInScreen"
+        android:label="fragment_sign_in_screen"
+        tools:layout="@layout/fragment_sign_in_screen" >
+        <action
+            android:id="@+id/action_signInScreen_to_signUpScreen"
+            app:destination="@id/signUpScreen" />
+        <action
+            android:id="@+id/action_signInScreen_to_mainScreen"
+            app:destination="@id/mainScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpScreen"
+        android:name="com.example.parkingsearchapp.SignUpScreen"
+        android:label="fragment_sign_up_screen"
+        tools:layout="@layout/fragment_sign_up_screen" />
+    <fragment
+        android:id="@+id/mainScreen"
+        android:name="com.example.parkingsearchapp.MainScreen"
+        android:label="fragment_main_screen"
+        tools:layout="@layout/fragment_main_screen" >
+        <action
+            android:id="@+id/action_mainScreen_to_popUpSettings"
+            app:destination="@id/popUpSettings" />
+    </fragment>
+    <activity
+        android:id="@+id/popUpSettings"
+        android:name="com.example.parkingsearchapp.PopUpSettings"
+        android:label="activity_pop_up_settings"
+        tools:layout="@layout/activity_pop_up_settings" />
+    <activity
+        android:id="@+id/mapsActivity"
+        android:name="com.example.parkingsearchapp.MapsActivity"
+        android:label="MapsActivity" />
+    <activity
+        android:id="@+id/parkingReport"
+        android:name="com.example.parkingsearchapp.ParkingReport"
+        android:label="activity_parking_report"
+        tools:layout="@layout/activity_parking_report" />
+    <activity
+        android:id="@+id/parkingSearch"
+        android:name="com.example.parkingsearchapp.ParkingSearch"
+        android:label="activity_parking_search"
+        tools:layout="@layout/activity_parking_search" />
+    <fragment
+        android:id="@+id/allReports"
+        android:name="com.example.parkingsearchapp.AllReports"
+        android:label="fragment_all_reports"
+        tools:layout="@layout/fragment_all_reports" />
+</navigation>

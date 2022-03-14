@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentEnd="false"
+    android:orientation="vertical"
+    tools:context=".MainScreen">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="230dp"
+        android:src="@drawable/smileyicon" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="230dp"
+        android:gravity="center|left"
+        android:text="מה באת לעשות היום?"
+        android:textColor="#449dba"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="300dp"
+        android:backgroundTint="#e4a751"
+        app:cardCornerRadius="25dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/ButtonParkingReport"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="245dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="100dp"
+            android:backgroundTint="#FFFF"
+            android:gravity="center"
+            android:text="דווח על חניה"
+            android:textColor="#378199"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:cornerRadius="25dp"
+            app:spinning_bar_color="#468da7" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/ButtonParkingSearch"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="245dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="230dp"
+            android:backgroundTint="#FFFF"
+            android:gravity="center"
+            android:text="חפש חניה"
+            android:textColor="#378199"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:cornerRadius="25dp"
+            app:spinning_bar_color="#468da7" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageButton
+        android:id="@+id/userPictureButton"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_gravity="right"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="12dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/icon_profile" />
+
+
+</RelativeLayout>
