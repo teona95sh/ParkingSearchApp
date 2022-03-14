@@ -1,7 +1,9 @@
-# ParkingSearchApp![Снимок экрана (640)](https://user-images.githubusercontent.com/98183254/158227825-24bd29d0-00b6-4b76-adf6-2b0cf7af0798.png)
-![Снимок экрана (641)](https://user-images.githubusercontent.com/98183254/158227837-3b550799-301a-436b-8d9a-494ba7a6dbce.png)
-![Снимок экрана (642)](https://user-images.githubusercontent.com/98183254/158227840-b5115bdb-f0d5-401c-8f30-22bc79187b7e.png)
-![Снимок экрана (643)](https://user-images.githubusercontent.com/98183254/158227845-f4e1a14d-eec5-4404-8d30-c83a2fdc85f2.png)
-![Снимок экрана (644)](https://user-images.githubusercontent.com/98183254/158227848-01a741d4-63b7-43ee-b6cf-758d78a58376.png)
-![Снимок экрана (645)](https://user-images.githubusercontent.com/98183254/158227853-aa0c7a1f-6cfb-49d0-af0d-b7ca9efc9c65.png)
-![Снимок экрана (646)](https://user-images.githubusercontent.com/98183254/158227859-4c8dc5eb-2e3d-40cf-97c2-ea975067e750.png)
+# ParkingSearchApp
+
+
+<img width="124" alt="Снимок экрана (640)" src="https://user-images.githubusercontent.com/98183254/158228554-9f2e5ba8-1b68-481c-978a-9c874cf9cba6.png">                       <img width="125" alt="Снимок экрана (641)" src="https://user-images.githubusercontent.com/98183254/158228599-924802a1-c546-443e-a0de-8f665bb2908a.png">                       <img width="119" alt="Снимок экрана (642)" src="https://user-images.githubusercontent.com/98183254/158228770-8c254f88-bceb-4d88-b0a1-a27f529365f3.png">                       <img width="127" alt="Снимок экрана (643)" src="https://user-images.githubusercontent.com/98183254/158228871-762b10ec-0cdd-4856-90a2-8418c5066051.png">
+<img width="124" alt="Снимок экрана (644)" src="https://user-images.githubusercontent.com/98183254/158229115-e7cc0023-0c13-4cd4-8615-6582223ca873.png">
+<img width="124" alt="Снимок экрана (645)" src="https://user-images.githubusercontent.com/98183254/158229147-b907dc81-bd69-474e-94ea-e09350e91309.png">
+<img width="122" alt="Снимок экрана (646)" src="https://user-images.githubusercontent.com/98183254/158229163-e68988c4-a6a5-4965-9a84-359662962728.png">
+
+
